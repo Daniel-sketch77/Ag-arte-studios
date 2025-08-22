@@ -128,4 +128,8 @@ align-items:center;
 .material-icons{
 vertical-align:middle;
 }
-
+.contact a{
+  color:#fab5ff;
+  text-decoration:none;
+  
+}
