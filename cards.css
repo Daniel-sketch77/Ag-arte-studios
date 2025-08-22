@@ -15,6 +15,26 @@ html, body{
   color:#76257d;
 }
 
+/* This is the fallback. All browsers will see this. */
+nav {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* This is the feature query. It checks for browser support. */
+@supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
+  nav {
+    /* If either the standard or vendor-prefixed property is supported,
+       the browser will apply this style. */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    /* We change the background to be transparent or semi-transparent
+       so the blur effect can be seen. */
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+
 h1 {
 font-weight:900;
 transition: 1s;
