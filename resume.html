@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ag's resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLd5oA34bQ9x13p5a5rT0h5V5Z5J5z2S5p5Q5z5J5z5V5o5d5o5Q5v5t5x5" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="resume.css" rel="stylesheet">
+<link rel="icon" href=logo.PNG>
+</head>
+
+<style>
+img{
+max-width:100%;
+border-radius:20px;
+height:350px;
+display:flex;
+justify-content:center;
+margin-top:10%;
+padding:3%;
+}
+html, body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  margin:0;
+  padding:0;
+  
+}
+
+/* This is the fallback. All browsers will see this. */
+nav {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* This is the feature query. It checks for browser support. */
+@supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
+  nav {
+    /* If either the standard or vendor-prefixed property is supported,
+       the browser will apply this style. */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    /* We change the background to be transparent or semi-transparent
+       so the blur effect can be seen. */
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
+</style>
+
+<body style="background-color:" >
+	<nav class="navbar navbar-expand-lg bg-body-white" style="position: sticky; top: 0; z-index: 1000; ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Ag arte studios</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <!--<a class="nav-link" href="gallery.html">Services</a>
+        <a class="nav-link" href="#abeg">About</a>
+        <a class="nav-link" href="#contact">Contact</a>
+		  <a class="nav-link" href="skills.html">Skills</a>-->
+      </div>
+    </div>
+  </div>
+</nav>
+
+<img src="resume.PNG">
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+</body>
+</html>
